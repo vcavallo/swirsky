@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+}
+
+.phone h2{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    margin-top: -5px;
+}
+
+.all-content {
+    background-color: white;
+}
+
+.logo h1{
+    font-size: 4em;
+}
+
+.disclaimer {
+    background-color: #d3d3d3;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.landing-sections {
+    margin: 1.5em 0;
+}
+
+.landing-sections h1 {
+    border-bottom: 1px dotted black;
+    margin-bottom: .5em;
+    padding-bottom: .25em;
+}
+
+.team, .new-patients {
+    background-color: #EDEDED;
+}
+
+.team h3 {
+    font-style: italic;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.contact td {
+    padding: 10px;
+    vertical-align: top;
+}
