@@ -34,6 +34,21 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development, :test do
+  # gem 'rb-fsevent'
+  gem 'rspec-rails'
+  gem 'awesome_print'
+  gem 'database_cleaner'
+  gem 'pry'
+end
+
+group :development do
+  gem 'guard-livereload', require: false
+  gem 'rack-livereload'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'seed_dump'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
