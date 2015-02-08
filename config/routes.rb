@@ -5,7 +5,12 @@ SwirskyRails::Application.routes.draw do
   # You can have the root of your site routed with "root"
 
   root 'pages#index'
-  get 'meet-dr-mike' => 'pages#meet_dr_mike', as: :meet_dr_mike
+  get "/:page" => 'pages#show', as: :page
+  #get 'meet-dr-mike' => 'pages#meet_dr_mike', as: :meet_dr_mike
+  #get 'services' => 'pages'
+
+  # to be used for templated pages?
+  #get "/:page" => 'pages#show', as: :page
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
