@@ -13,3 +13,9 @@
 
  *= require_tree .
  */
+
+@import 'variables';
+
+footer {
+  background-color: $header-color;
+}
