@@ -16,6 +16,72 @@
 
 @import 'variables';
 
+@font-face {
+  font-family: 'Oswald';
+  src: font-url('Oswald-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+  //src: font-url('Oswald-Bold.ttf') format('truetype'),
+  //     font-url('Oswald-Regular.ttf') format('truetype'),
+  //     font-url('Oswald-Light.ttf') format('truetype');
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: $black;
+  a {
+    color: $main-contrast;
+    &:hover {
+      color: $contrast-dark;
+      background-color: $main-color;
+    }
+  }
+  h1, h2, h3 {
+    color: $main-contrast;
+  }
+  h1 {
+    font-weight: 800;
+    letter-spacing: 1.8px;
+  }
+  h2, h3 {
+    font-weight: normal;
+  }
+}
+
+.navigation {
+  border-bottom: 4px solid $main-dark;
+}
+
 footer {
-  background-color: $header-color;
+  background-color: $main-color;
+  a {
+    font-weight: 500;
+    color: white;
+    &:hover {
+      color: white;
+      background-color: $main-dark;
+    }
+  }
+  margin-top: 10px;
+  border-top: 4px solid $main-dark;
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
+}
+
+header {
+  &.panel {
+    background-image: url("walking.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    h1, h2 {
+      color: white;
+    }
+  }
+  height: 400px;
+  h1 {
+    font-size: 4em;
+  }
 }
