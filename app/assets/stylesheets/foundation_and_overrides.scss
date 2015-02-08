@@ -45,7 +45,8 @@
 // We use these to control various global styles
 // $body-bg: #fff;
    $body-font-color: $black;
-   $body-font-family: 'Oswald', Helvetica, sans-serif;
+   $body-font-family: $swirsky-body-font;
+   $header-font-family: $swirsky-header-font;
    $body-font-weight: normal;
    $body-font-style: normal;
 
@@ -1164,7 +1165,7 @@
    $topbar-link-bg-hover: $main-dark;
 // $topbar-link-bg-active: $primary-color;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
-// $topbar-link-font-family: $body-font-family;
+   $topbar-link-font-family: $header-font-family;
 // $topbar-link-text-transform: none;
 // $topbar-link-padding: $topbar-height / 3;
 
